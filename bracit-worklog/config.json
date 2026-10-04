@@ -15,7 +15,9 @@
     "list_path": "/my-un-billable-worklogs",
     "default_category": "Presales",
     "default_project": "Internal Service & RnD",
-    "minutes_per_day": 360
+    "minutes_per_day": 360,
+    "timesheet_path": "/monthly-calendar",
+    "max_minutes_per_day_note": "Never log a day past minutes_per_day in total (Monthly Timesheet \u03a3 Hours); top up only the difference."
   },
   "jira": {
     "enabled": false,
@@ -23,13 +25,49 @@
     "issue_key": null,
     "auto_pick_jql": "assignee = currentUser() AND statusCategory = \"In Progress\" ORDER BY updated DESC",
     "hours_per_day": 6,
-    "start_time": "09:00",
+    "start_time": "10:30",
     "utc_offset": "+0600",
     "note": "Disabled at the user's choice (portfolio manager only). Set enabled=true and issue_key (or keep auto_pick_jql) to also log in Jira; see reference/jira.md."
   },
   "description_max_chars": 300,
-  "skip_weekends": [
-    "Friday",
-    "Saturday"
-  ]
+  "work_week": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+  ],
+  "holidays_note": "Bangladesh government public holidays (general + executive order), from the official 2026 list (The Daily Star, 2025). Moon-dependent dates may shift; correct them here if the government revises a date. Add each new year's list before logging that year.",
+  "holidays": {
+    "2026-02-04": "Shab-e-Barat",
+    "2026-02-21": "Shaheed Day and International Mother Language Day",
+    "2026-03-17": "Shab-e-Qadr",
+    "2026-03-19": "Eid ul-Fitr holiday",
+    "2026-03-20": "Jumatul Bida / Eid ul-Fitr holiday",
+    "2026-03-21": "Eid ul-Fitr",
+    "2026-03-22": "Eid ul-Fitr holiday",
+    "2026-03-23": "Eid ul-Fitr holiday",
+    "2026-03-26": "Independence and National Day",
+    "2026-04-14": "Pohela Boishakh (Bangla New Year)",
+    "2026-05-01": "May Day / Buddha Purnima",
+    "2026-05-26": "Eid ul-Adha holiday",
+    "2026-05-27": "Eid ul-Adha holiday",
+    "2026-05-28": "Eid ul-Adha",
+    "2026-05-29": "Eid ul-Adha holiday",
+    "2026-05-30": "Eid ul-Adha holiday",
+    "2026-05-31": "Eid ul-Adha holiday",
+    "2026-06-26": "Ashura",
+    "2026-08-05": "July Mass Uprising Day",
+    "2026-08-26": "Eid-e-Miladunnabi",
+    "2026-09-04": "Janmashtami",
+    "2026-10-20": "Durga Puja (Mahanabami)",
+    "2026-10-21": "Durga Puja (Bijoya Dashami)",
+    "2026-12-16": "Victory Day",
+    "2026-12-25": "Christmas Day"
+  },
+  "office_hours": {
+    "start": "10:30",
+    "end": "18:30",
+    "note": "User's office time, Asia/Dhaka. Jira entries start at start; a day's logged time stays within these hours."
+  }
 }

@@ -24,8 +24,16 @@ Files (in this skill's directory):
   ("R&D", "Presales"…), project ("Internal Service & RnD"…), a **topic** ("hr chatbot", "ocr", a repo name) to limit
   which work is described, "jira too" / "portfolio only", "dry run" (prepare everything, submit nothing).
 - Anything not given comes from `config.json`.
-- Ranges ("1-5 oct", "last week") leave out the `skip_weekends` days (Friday, Saturday) unless that day has
-  evidence of work. A weekend date the user names explicitly is always considered.
+- **Working days** are Bangladesh's week, `work_week` (Sunday–Thursday), minus the government holidays in
+  `holidays`. Friday, Saturday and holidays are never logged, even when the user names them or worked that day.
+- **A day off is skipped and its work moves to the next working day.** Any evidence from a Friday, Saturday or
+  holiday is folded into the description of the next working day (the script's `log_on`), even when that day lies
+  just past the requested range. Report each skipped day with its reason ("Fri", "holiday: July Mass Uprising Day").
+- "N days from <date>" means N **working** days starting on or after that date (e.g. "10 days from 1 Aug 2026" =
+  2, 3, 4, 6, 9, 10, 11, 12, 13, 16 Aug; 5 Aug is a holiday).
+- Office hours are `office_hours` (10:30–18:30 Asia/Dhaka). Jira worklogs start at that start time.
+- If the script reports `holiday_list_missing` for a year, look up that year's official Bangladesh public holiday
+  list (general + executive order), add it to `holidays` in `config.json`, then rerun.
 
 ## 2. Gather evidence
 
@@ -53,13 +61,19 @@ project(s) with the most evidence that day.
 Browser: use the Claude in Chrome tools. Load them in ONE ToolSearch call (tabs_context_mcp, tabs_create_mcp,
 navigate, computer, find, form_input, get_page_text). Create your own tab.
 
-1. Open `url + list_path` (`/my-un-billable-worklogs`). If you land on a sign-in page, stop: ask the user to sign in
+1. Open `url + timesheet_path` (`/monthly-calendar`). If you land on a sign-in page, stop: ask the user to sign in
    (never type their password), then continue.
-2. Read the existing rows. Skip any date that already has an entry with the same category; report it as "already
-   logged".
+2. **Never log more than a full day.** For each date, read the day's total from the Monthly Timesheet's
+   **Σ Hours** row (pick the year and month; see `reference/portfolio-manager.md`). That total covers every project
+   and every General Worklog already logged that day.
+   - Total ≥ `minutes_per_day` (6 h): add **nothing** for that date; report "already 6h logged".
+   - Total above 0 but below a full day: add only the **remaining** minutes (e.g. 2 h already → add 240 min).
+   - Total 0: add the full `minutes_per_day`.
+   If the user asked for specific hours, still cap the day at `minutes_per_day` in total.
 3. Add each remaining day exactly as `reference/portfolio-manager.md` describes (Category and Project are custom
    dropdowns: click, click the search box, type, click the match).
-4. Re-read the list and confirm every new row (date, minutes, category, project).
+4. Re-open the Monthly Timesheet and confirm each logged date now totals exactly 6 h (and none went over); also check
+   the new rows on `list_path` (`/my-un-billable-worklogs`).
 
 ## 5. Jira (only when `jira.enabled`)
 
@@ -68,8 +82,9 @@ Follow `reference/jira.md`: REST calls from a tab on tim.brac.net using the user
 
 ## 6. Report
 
-A short table: date · minutes · category · project · description (shortened) · status (added / already logged /
-skipped: no work found). Then one line on anything that needs the user (e.g. Jira disabled, sign-in needed).
+A short table: date · minutes · category · project · description (shortened) · status (added / topped up to 6h /
+already 6h logged /
+skipped: weekend / skipped: holiday <name> / skipped: no work found). Then one line on anything that needs the user (e.g. Jira disabled, sign-in needed).
 Close the tab you created unless the user wants to see the list.
 
 ## When to stop (the only reasons to ask)

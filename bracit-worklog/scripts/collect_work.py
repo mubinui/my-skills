@@ -10,7 +10,11 @@ Usage:
   collect_work.py 2026-09-29 2026-09-30            # dates in Asia/Dhaka unless config says otherwise
   collect_work.py --config ~/.claude/skills/bracit-worklog/config.json 2026-10-01
 
-Prints JSON: {"2026-09-29": {"projects": {"bits-hr-payroll": {"prompts": [...], "commits": [...], "files_changed": 37}}}}
+Prints JSON: {"2026-09-29": {"weekday": "Tuesday", "working_day": true, "holiday": null,
+                               "projects": {"bits-hr-payroll": {"prompts": [...], "commits": [...], "files_changed": 37}}}}
+A day off (outside config "work_week", or listed in config "holidays") gets "working_day": false and "log_on": the
+next working day, where its work (if any) is reported instead. "holiday_list_missing": true means config has no
+holidays for that year yet.
 """
 
 from __future__ import annotations
@@ -162,6 +166,20 @@ def git_by_day(days: set[str], cfg: dict, tz: timezone) -> dict:
     return out
 
 
+def day_off(d: date, cfg: dict) -> tuple[bool, str | None]:
+    """(is a day off, holiday name) — weekends per config work_week, holidays per config holidays."""
+    holiday = cfg.get("holidays", {}).get(d.isoformat())
+    week = cfg.get("work_week", ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"])
+    return holiday is not None or d.strftime("%A") not in week, holiday
+
+
+def next_working_day(d: date, cfg: dict) -> date:
+    d += timedelta(days=1)
+    while day_off(d, cfg)[0]:
+        d += timedelta(days=1)
+    return d
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("dates", nargs="+", help="YYYY-MM-DD")
@@ -179,7 +197,15 @@ def main() -> None:
             projects[name]["prompts"] = items[:40]
         for name, info in gits.get(day, {}).items():
             projects[name].update(info)
-        result[day] = {"weekday": date.fromisoformat(day).strftime("%A"), "projects": projects}
+        d = date.fromisoformat(day)
+        off, holiday = day_off(d, cfg)
+        entry = {"weekday": d.strftime("%A"), "working_day": not off, "holiday": holiday}
+        if off:
+            entry["log_on"] = next_working_day(d, cfg).isoformat()
+        if not any(h.startswith(f"{d.year}-") for h in cfg.get("holidays", {})):
+            entry["holiday_list_missing"] = True
+        entry["projects"] = projects
+        result[day] = entry
     print(json.dumps(result, indent=1, ensure_ascii=False))
 
 
