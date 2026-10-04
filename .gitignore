@@ -1,0 +1,8 @@
+# Built-in Anthropic skills synced by the Claude app (re-synced automatically; not ours to version)
+synced/
+# Deleted skills
+.trash/
+# OS and Python noise
+.DS_Store
+__pycache__/
+*.pyc

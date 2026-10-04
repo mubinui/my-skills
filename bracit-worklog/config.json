@@ -1,0 +1,35 @@
+{
+  "utc_offset_hours": 6,
+  "repo_roots": [
+    "~/Home/AI Projects"
+  ],
+  "git_authors": [
+    "mubinui",
+    "mubin",
+    "uic.mubin@gmail.com",
+    "mubinn.uic@gmail.com"
+  ],
+  "portfolio_manager": {
+    "enabled": true,
+    "url": "https://portfoliomanager.bracits.com",
+    "list_path": "/my-un-billable-worklogs",
+    "default_category": "Presales",
+    "default_project": "Internal Service & RnD",
+    "minutes_per_day": 360
+  },
+  "jira": {
+    "enabled": false,
+    "url": "https://tim.brac.net",
+    "issue_key": null,
+    "auto_pick_jql": "assignee = currentUser() AND statusCategory = \"In Progress\" ORDER BY updated DESC",
+    "hours_per_day": 6,
+    "start_time": "09:00",
+    "utc_offset": "+0600",
+    "note": "Disabled at the user's choice (portfolio manager only). Set enabled=true and issue_key (or keep auto_pick_jql) to also log in Jira; see reference/jira.md."
+  },
+  "description_max_chars": 300,
+  "skip_weekends": [
+    "Friday",
+    "Saturday"
+  ]
+}

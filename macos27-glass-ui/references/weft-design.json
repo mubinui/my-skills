@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T14:41:40.029014+00:00",
+  "title": "Design System: Weft",
+  "extensions": {
+    "colorMeta": {
+      "graphite": {
+        "role": "primary",
+        "displayName": "Graphite",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "#252528",
+          "#3e3e42",
+          "#56565c",
+          "#6f6f77",
+          "#888890",
+          "#a8a8ae",
+          "#cacace",
+          "#f2f2f3"
+        ]
+      },
+      "graphite-hi": {
+        "role": "primary",
+        "displayName": "Graphite Pressed Deep",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "graphite-lo": {
+        "role": "primary",
+        "displayName": "Graphite Pressed",
+        "canonical": "#3a3a3c",
+        "tonalRamp": [
+          "#262627",
+          "#3f3f41",
+          "#58585b",
+          "#717175",
+          "#8a8a8e",
+          "#a9a9ac",
+          "#cbcbcd",
+          "#f2f2f2"
+        ]
+      },
+      "on-graphite": {
+        "role": "primary",
+        "displayName": "On Graphite",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "graphite-dark": {
+        "role": "primary",
+        "displayName": "Graphite (dark)",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "#22222a",
+          "#393947",
+          "#4f4f63",
+          "#66667f",
+          "#808099",
+          "#a2a2b4",
+          "#c6c6d2",
+          "#f1f1f4"
+        ]
+      },
+      "graphite-hi-dark": {
+        "role": "primary",
+        "displayName": "Graphite Hover (dark)",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "on-graphite-dark": {
+        "role": "primary",
+        "displayName": "On Graphite (dark)",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "#252528",
+          "#3e3e42",
+          "#56565c",
+          "#6f6f77",
+          "#888890",
+          "#a8a8ae",
+          "#cacace",
+          "#f2f2f3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "#252528",
+          "#3e3e42",
+          "#56565c",
+          "#6f6f77",
+          "#888890",
+          "#a8a8ae",
+          "#cacace",
+          "#f2f2f3"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "#515154",
+        "tonalRamp": [
+          "#262627",
+          "#3f3f41",
+          "#58585b",
+          "#717175",
+          "#8a8a8e",
+          "#a9a9ac",
+          "#cbcbcd",
+          "#f2f2f2"
+        ]
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Ink Dim",
+        "canonical": "#6e6e73",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707075",
+          "#8a8a8f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink (Dark)",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "#22222a",
+          "#393947",
+          "#4f4f63",
+          "#66667f",
+          "#808099",
+          "#a2a2b4",
+          "#c6c6d2",
+          "#f1f1f4"
+        ]
+      },
+      "ink-muted-dark": {
+        "role": "neutral",
+        "displayName": "Ink Muted (Dark)",
+        "canonical": "#c7c7cc",
+        "tonalRamp": [
+          "#242428",
+          "#3d3d43",
+          "#55555d",
+          "#6d6d78",
+          "#878792",
+          "#a7a7af",
+          "#cacace",
+          "#f2f2f3"
+        ]
+      },
+      "ink-dim-dark": {
+        "role": "neutral",
+        "displayName": "Ink Dim (Dark)",
+        "canonical": "#98989d",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707076",
+          "#89898f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      },
+      "window": {
+        "role": "neutral",
+        "displayName": "Window",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "window-dark": {
+        "role": "neutral",
+        "displayName": "Window (Dark)",
+        "canonical": "#1e1e1e",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "grouped": {
+        "role": "neutral",
+        "displayName": "Grouped",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "#22222a",
+          "#393947",
+          "#4f4f63",
+          "#66667f",
+          "#808099",
+          "#a2a2b4",
+          "#c6c6d2",
+          "#f1f1f4"
+        ]
+      },
+      "grouped-dark": {
+        "role": "neutral",
+        "displayName": "Grouped (Dark)",
+        "canonical": "#2a2a2c",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707075",
+          "#8a8a8f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#ababab",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "raised-dark": {
+        "role": "neutral",
+        "displayName": "Raised (Dark)",
+        "canonical": "#323235",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e42",
+          "#57575c",
+          "#6f6f76",
+          "#898990",
+          "#a8a8ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      },
+      "pane": {
+        "role": "neutral",
+        "displayName": "Pane",
+        "canonical": "#f9f9fb",
+        "tonalRamp": [
+          "#1f1f2e",
+          "#33334c",
+          "#47476b",
+          "#5c5c8a",
+          "#7575a3",
+          "#9a9abc",
+          "#c2c2d6",
+          "#f0f0f5"
+        ],
+        "note": "Opaque side panes such as the Connections list; the Studio and Explore panes float as glass instead."
+      },
+      "pane-dark": {
+        "role": "neutral",
+        "displayName": "Pane (Dark)",
+        "canonical": "#232325",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e42",
+          "#57575c",
+          "#707076",
+          "#89898f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      },
+      "sidebar-glass": {
+        "role": "neutral",
+        "displayName": "Sidebar Glass",
+        "canonical": "rgba(246, 246, 249, .58)",
+        "note": "Blur 50px, saturate 200%, with a top sheen gradient; tinted by the desktop fields behind it."
+      },
+      "sidebar-glass-dark": {
+        "role": "neutral",
+        "displayName": "Sidebar Glass (Dark)",
+        "canonical": "rgba(40, 40, 44, .56)"
+      },
+      "popover-glass": {
+        "role": "neutral",
+        "displayName": "Popover Glass",
+        "canonical": "rgba(250, 250, 252, .86)"
+      },
+      "popover-glass-dark": {
+        "role": "neutral",
+        "displayName": "Popover Glass (Dark)",
+        "canonical": "rgba(42, 42, 46, .86)"
+      },
+      "fill": {
+        "role": "neutral",
+        "displayName": "Fill",
+        "canonical": "rgba(0, 0, 0, .055)"
+      },
+      "fill-hover": {
+        "role": "neutral",
+        "displayName": "Fill Hover",
+        "canonical": "rgba(0, 0, 0, .085)"
+      },
+      "fill-active": {
+        "role": "neutral",
+        "displayName": "Fill Active",
+        "canonical": "rgba(0, 0, 0, .12)"
+      },
+      "fill-dark": {
+        "role": "neutral",
+        "displayName": "Fill (Dark)",
+        "canonical": "rgba(255, 255, 255, .10)"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "rgba(0, 0, 0, .085)"
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Line Strong",
+        "canonical": "rgba(0, 0, 0, .16)"
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "canonical": "rgba(0, 0, 0, .14)"
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "canonical": "rgba(0, 0, 0, .38)"
+      },
+      "focus-dark": {
+        "role": "neutral",
+        "displayName": "Focus (Dark)",
+        "canonical": "rgba(255, 255, 255, .45)"
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Selection",
+        "canonical": "#6e6e73",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707075",
+          "#8a8a8f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ],
+        "note": "Table selection only while the table has focus; white text on it."
+      },
+      "selection-dark": {
+        "role": "neutral",
+        "displayName": "Selection (Dark)",
+        "canonical": "#636366",
+        "tonalRamp": [
+          "#262627",
+          "#3f3f41",
+          "#58585b",
+          "#717174",
+          "#8b8b8e",
+          "#aaaaac",
+          "#cbcbcd",
+          "#f2f2f2"
+        ]
+      },
+      "selection-blur": {
+        "role": "neutral",
+        "displayName": "Selection Blur",
+        "canonical": "rgba(0, 0, 0, .085)"
+      },
+      "ready": {
+        "role": "secondary",
+        "displayName": "Ready Green",
+        "canonical": "#248a3d",
+        "tonalRamp": [
+          "#103d1b",
+          "#1a652d",
+          "#258e3f",
+          "#2fb650",
+          "#49d06a",
+          "#7adc92",
+          "#aeeabd",
+          "#ebfaee"
+        ]
+      },
+      "ready-dark": {
+        "role": "secondary",
+        "displayName": "Ready Green (dark)",
+        "canonical": "#30d158",
+        "tonalRamp": [
+          "#0e3f1a",
+          "#17682b",
+          "#20923d",
+          "#2abc4e",
+          "#43d568",
+          "#75e090",
+          "#acecbc",
+          "#eafaee"
+        ]
+      },
+      "ready-wash": {
+        "role": "secondary",
+        "displayName": "Ready Wash",
+        "canonical": "rgba(52, 199, 89, .14)"
+      },
+      "attention": {
+        "role": "secondary",
+        "displayName": "Attention Yellow",
+        "canonical": "#f2c200",
+        "tonalRamp": [
+          "#4c3d00",
+          "#806600",
+          "#b28f00",
+          "#e6b800",
+          "#ffd11a",
+          "#ffde57",
+          "#ffeb99",
+          "#fffae5"
+        ],
+        "note": "Glyphs, badge tints and meters only; never text on a light window (--amber-text maps to --text in light)."
+      },
+      "attention-dark": {
+        "role": "secondary",
+        "displayName": "Attention Yellow (dark)",
+        "canonical": "#ffd60a",
+        "tonalRamp": [
+          "#4c4000",
+          "#806a00",
+          "#b29500",
+          "#e6bf00",
+          "#ffd91a",
+          "#ffe357",
+          "#ffee99",
+          "#fffbe5"
+        ]
+      },
+      "attention-wash": {
+        "role": "secondary",
+        "displayName": "Attention Wash",
+        "canonical": "rgba(255, 204, 0, .22)"
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Refusal Red",
+        "canonical": "#d70015",
+        "tonalRamp": [
+          "#4c0007",
+          "#80000c",
+          "#b20011",
+          "#e60016",
+          "#ff1a30",
+          "#ff5767",
+          "#ff99a3",
+          "#ffe5e8"
+        ]
+      },
+      "error-dark": {
+        "role": "secondary",
+        "displayName": "Refusal Red (dark)",
+        "canonical": "#ff453a",
+        "tonalRamp": [
+          "#4c0400",
+          "#800700",
+          "#b20a00",
+          "#e60d00",
+          "#ff261a",
+          "#ff6057",
+          "#ff9f99",
+          "#ffe7e5"
+        ]
+      },
+      "error-wash": {
+        "role": "secondary",
+        "displayName": "Refusal Wash",
+        "canonical": "rgba(255, 59, 48, .10)"
+      },
+      "lane-ingest": {
+        "role": "tertiary",
+        "displayName": "Ingest Teal",
+        "canonical": "#0c8f7e",
+        "tonalRamp": [
+          "#06473e",
+          "#0a7668",
+          "#0ea591",
+          "#12d4bb",
+          "#2bedd4",
+          "#64f2e0",
+          "#a1f7ec",
+          "#e7fdfa"
+        ],
+        "note": "Stage icon tiles only; never wires or bands."
+      },
+      "lane-index": {
+        "role": "tertiary",
+        "displayName": "Index Violet",
+        "canonical": "#6e56cf",
+        "tonalRamp": [
+          "#19113c",
+          "#2a1c63",
+          "#3b278b",
+          "#4c33b3",
+          "#664ccc",
+          "#8f7cda",
+          "#bbb0e8",
+          "#eeebf9"
+        ]
+      },
+      "lane-query": {
+        "role": "tertiary",
+        "displayName": "Query Magenta",
+        "canonical": "#b8327a",
+        "tonalRamp": [
+          "#3c1028",
+          "#641b42",
+          "#8c265d",
+          "#b43178",
+          "#ce4b91",
+          "#db7bae",
+          "#e9afce",
+          "#faebf3"
+        ]
+      },
+      "lane-answer": {
+        "role": "tertiary",
+        "displayName": "Answer Graphite",
+        "canonical": "#48484a",
+        "tonalRamp": [
+          "#262627",
+          "#3f3f41",
+          "#58585a",
+          "#717174",
+          "#8b8b8e",
+          "#aaaaac",
+          "#cbcbcd",
+          "#f2f2f2"
+        ]
+      },
+      "lane-ingest-dark": {
+        "role": "tertiary",
+        "displayName": "Ingest Teal (dark)",
+        "canonical": "#3fd6c0",
+        "tonalRamp": [
+          "#0d3f38",
+          "#16695d",
+          "#1f9382",
+          "#28bda7",
+          "#42d7c1",
+          "#74e1d1",
+          "#abede3",
+          "#eafbf8"
+        ]
+      },
+      "lane-index-dark": {
+        "role": "tertiary",
+        "displayName": "Index Violet (dark)",
+        "canonical": "#a78bfa",
+        "tonalRamp": [
+          "#150349",
+          "#23057a",
+          "#3107ab",
+          "#3f09dc",
+          "#5823f6",
+          "#855ef8",
+          "#b59dfb",
+          "#ece7fe"
+        ]
+      },
+      "lane-query-dark": {
+        "role": "tertiary",
+        "displayName": "Query Magenta (dark)",
+        "canonical": "#ff6fae",
+        "tonalRamp": [
+          "#4c0021",
+          "#800038",
+          "#b2004e",
+          "#e60064",
+          "#ff1a7e",
+          "#ff57a0",
+          "#ff99c6",
+          "#ffe5f1"
+        ]
+      },
+      "lane-answer-dark": {
+        "role": "tertiary",
+        "displayName": "Answer Graphite (dark)",
+        "canonical": "#d1d1d6",
+        "tonalRamp": [
+          "#242428",
+          "#3c3c43",
+          "#54545e",
+          "#6c6c79",
+          "#868693",
+          "#a6a6b0",
+          "#c9c9cf",
+          "#f2f2f3"
+        ]
+      },
+      "sidebar-selection": {
+        "role": "neutral",
+        "displayName": "Sidebar Selection",
+        "canonical": "rgba(0, 0, 0, .08)",
+        "note": "The grey pill of the current sidebar row."
+      },
+      "sidebar-selection-dark": {
+        "role": "neutral",
+        "displayName": "Sidebar Selection (Dark)",
+        "canonical": "rgba(255, 255, 255, .11)"
+      },
+      "lg-fill": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Fill",
+        "canonical": "rgba(255, 255, 255, .64)",
+        "note": "Lens fill of toolbar capsules, the activity view and canvas capsules (stats, legend, zoom, Fit/Relax)."
+      },
+      "lg-fill-dark": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Fill (Dark)",
+        "canonical": "rgba(44, 44, 48, .58)"
+      },
+      "lg-edge": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Darkened Edge",
+        "canonical": "rgba(0, 0, 0, .15)",
+        "note": "0.5px outer edge of every Liquid Glass surface; the sidebar's trailing line."
+      },
+      "lg-edge-dark": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Darkened Edge (Dark)",
+        "canonical": "rgba(0, 0, 0, .62)"
+      },
+      "lg-spec": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Specular Rim",
+        "canonical": "rgba(255, 255, 255, .96)",
+        "note": "1px inner top rim; the specular line inside the sidebar edge."
+      },
+      "lg-spec-dark": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Specular Rim (Dark)",
+        "canonical": "rgba(255, 255, 255, .26)"
+      },
+      "lg-sheen": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Sheen",
+        "canonical": "rgba(255, 255, 255, .55)",
+        "note": "Top-left radial sheen; inner sheen of the current sidebar row."
+      },
+      "lg-sheen-dark": {
+        "role": "neutral",
+        "displayName": "Liquid Glass Sheen (Dark)",
+        "canonical": "rgba(255, 255, 255, .07)"
+      },
+      "toolbar-band": {
+        "role": "neutral",
+        "displayName": "Toolbar Band",
+        "canonical": "rgba(255, 255, 255, .72)",
+        "note": "The unified frosted toolbar band (fades to 70% of itself at the bottom)."
+      },
+      "toolbar-band-dark": {
+        "role": "neutral",
+        "displayName": "Toolbar Band (Dark)",
+        "canonical": "rgba(30, 30, 30, .70)"
+      },
+      "wall-a": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Teal",
+        "canonical": "rgba(12, 143, 126, .20)",
+        "note": "Seen only through the sidebar glass."
+      },
+      "wall-b": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Violet",
+        "canonical": "rgba(110, 86, 207, .18)",
+        "note": "Seen only through the sidebar glass."
+      },
+      "wall-c": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Pink",
+        "canonical": "rgba(224, 69, 123, .12)",
+        "note": "Seen only through the sidebar glass."
+      },
+      "wall-a-dark": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Teal (Dark)",
+        "canonical": "rgba(63, 214, 192, .16)"
+      },
+      "wall-b-dark": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Violet (Dark)",
+        "canonical": "rgba(167, 139, 250, .16)"
+      },
+      "wall-c-dark": {
+        "role": "tertiary",
+        "displayName": "Desktop Field Pink (Dark)",
+        "canonical": "rgba(255, 111, 174, .10)"
+      },
+      "hue-graphs": {
+        "role": "tertiary",
+        "displayName": "Graphs Teal",
+        "canonical": "#0c8f7e",
+        "tonalRamp": [
+          "#0f2722",
+          "#15443c",
+          "#196459",
+          "#198676",
+          "#49a595",
+          "#80c1b4",
+          "#b2ded5",
+          "#e3fcf6"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-graphs-dark": {
+        "role": "tertiary",
+        "displayName": "Graphs Teal (dark)",
+        "canonical": "#3fd6c0",
+        "tonalRamp": [
+          "#072823",
+          "#00463d",
+          "#00675a",
+          "#008a78",
+          "#22a996",
+          "#70c5b5",
+          "#a9e1d5",
+          "#defdf6"
+        ]
+      },
+      "hue-sources": {
+        "role": "tertiary",
+        "displayName": "Sources Green",
+        "canonical": "#248a3d",
+        "tonalRamp": [
+          "#122715",
+          "#1d4524",
+          "#276633",
+          "#308843",
+          "#56a863",
+          "#87c48e",
+          "#b6e0ba",
+          "#e5fde7"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-sources-dark": {
+        "role": "tertiary",
+        "displayName": "Sources Green (dark)",
+        "canonical": "#30d158",
+        "tonalRamp": [
+          "#08290e",
+          "#004915",
+          "#006b1b",
+          "#008f1f",
+          "#26af48",
+          "#71ca7d",
+          "#a9e5ae",
+          "#deffe0"
+        ]
+      },
+      "hue-connect": {
+        "role": "tertiary",
+        "displayName": "Connections Violet",
+        "canonical": "#6e56cf",
+        "tonalRamp": [
+          "#211d3a",
+          "#3a3267",
+          "#554899",
+          "#725fcd",
+          "#9080ec",
+          "#afa6fb",
+          "#d0cbff",
+          "#f3f1ff"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-connect-dark": {
+        "role": "tertiary",
+        "displayName": "Connections Violet (dark)",
+        "canonical": "#a78bfa",
+        "tonalRamp": [
+          "#231d36",
+          "#3e3261",
+          "#5b488f",
+          "#7a5fc0",
+          "#9780df",
+          "#b5a5f0",
+          "#d5cbff",
+          "#f6f0ff"
+        ]
+      },
+      "hue-studio": {
+        "role": "tertiary",
+        "displayName": "Studio Magenta",
+        "canonical": "#b8327a",
+        "tonalRamp": [
+          "#351524",
+          "#5e2340",
+          "#8a325e",
+          "#b9407e",
+          "#d9649d",
+          "#ee91ba",
+          "#ffbdd9",
+          "#ffe9f8"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-studio-dark": {
+        "role": "tertiary",
+        "displayName": "Studio Magenta (dark)",
+        "canonical": "#ff6fae",
+        "tonalRamp": [
+          "#361523",
+          "#5f223d",
+          "#8c305a",
+          "#bc3e78",
+          "#dd6297",
+          "#f190b6",
+          "#ffbcd6",
+          "#ffe8f6"
+        ]
+      },
+      "hue-ask": {
+        "role": "tertiary",
+        "displayName": "Ask Cyan-Teal",
+        "canonical": "#0e7c86",
+        "tonalRamp": [
+          "#112528",
+          "#1a4246",
+          "#236168",
+          "#2b828b",
+          "#52a1a9",
+          "#85bec4",
+          "#b5dce0",
+          "#e4fafd"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-ask-dark": {
+        "role": "tertiary",
+        "displayName": "Ask Cyan-Teal (dark)",
+        "canonical": "#40c8e0",
+        "tonalRamp": [
+          "#09262b",
+          "#04434d",
+          "#006372",
+          "#008499",
+          "#2ea3b7",
+          "#73c0d0",
+          "#aadee8",
+          "#dffbff"
+        ]
+      },
+      "hue-explore": {
+        "role": "tertiary",
+        "displayName": "Explore Purple",
+        "canonical": "#9b51e0",
+        "tonalRamp": [
+          "#29193a",
+          "#482967",
+          "#6a3b99",
+          "#8e4ccd",
+          "#ad70ec",
+          "#c79afb",
+          "#e2c4ff",
+          "#fdedff"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-explore-dark": {
+        "role": "tertiary",
+        "displayName": "Explore Purple (dark)",
+        "canonical": "#c77dff",
+        "tonalRamp": [
+          "#2a1937",
+          "#4a2a61",
+          "#6d3c90",
+          "#924fc1",
+          "#b071e0",
+          "#ca9bf1",
+          "#e4c4ff",
+          "#ffedff"
+        ]
+      },
+      "hue-monitor": {
+        "role": "tertiary",
+        "displayName": "Monitor Pink",
+        "canonical": "#e0457b",
+        "tonalRamp": [
+          "#38141f",
+          "#632036",
+          "#912c4f",
+          "#c33769",
+          "#e45d87",
+          "#f78da9",
+          "#ffbbcd",
+          "#ffe8f1"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-monitor-dark": {
+        "role": "tertiary",
+        "displayName": "Monitor Pink (dark)",
+        "canonical": "#ff8fb1",
+        "tonalRamp": [
+          "#321920",
+          "#592a39",
+          "#823d53",
+          "#af506f",
+          "#cf718e",
+          "#e599ae",
+          "#f9c2d0",
+          "#ffecf3"
+        ]
+      },
+      "hue-api": {
+        "role": "tertiary",
+        "displayName": "API Grey",
+        "canonical": "#6e6e73",
+        "tonalRamp": [
+          "#212125",
+          "#3b3b3f",
+          "#56565b",
+          "#737378",
+          "#929297",
+          "#b2b2b7",
+          "#d3d3d8",
+          "#f4f4fa"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-api-dark": {
+        "role": "tertiary",
+        "displayName": "API Grey (dark)",
+        "canonical": "#aeaeb2",
+        "tonalRamp": [
+          "#212124",
+          "#3b3b3e",
+          "#56565a",
+          "#747477",
+          "#929296",
+          "#b2b2b6",
+          "#d3d3d7",
+          "#f5f5f9"
+        ]
+      },
+      "hue-advisor": {
+        "role": "tertiary",
+        "displayName": "Advisor Graphite",
+        "canonical": "#48484a",
+        "tonalRamp": [
+          "#212123",
+          "#3b3b3d",
+          "#575759",
+          "#747476",
+          "#929294",
+          "#b2b2b4",
+          "#d3d3d5",
+          "#f5f5f7"
+        ],
+        "note": "Sidebar icon only."
+      },
+      "hue-advisor-dark": {
+        "role": "tertiary",
+        "displayName": "Advisor Graphite (dark)",
+        "canonical": "#d1d1d6",
+        "tonalRamp": [
+          "#212125",
+          "#3b3b3f",
+          "#56565b",
+          "#737378",
+          "#929297",
+          "#b2b2b7",
+          "#d3d3d8",
+          "#f4f4fa"
+        ]
+      },
+      "wire": {
+        "role": "neutral",
+        "displayName": "Wire",
+        "canonical": "#a1a1a6",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707075",
+          "#8a8a8f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ],
+        "note": "Every Studio wire, handle ring and legend swatch; Explore links inside one graph."
+      },
+      "wire-dark": {
+        "role": "neutral",
+        "displayName": "Wire (Dark)",
+        "canonical": "#6e6e73",
+        "tonalRamp": [
+          "#252527",
+          "#3e3e41",
+          "#57575b",
+          "#707075",
+          "#8a8a8f",
+          "#a9a9ad",
+          "#cbcbcd",
+          "#f2f2f3"
+        ]
+      }
+    },
+    "nodeRamp": {
+      "purpose": "Categorical colours for graph nodes in Explore (--node-1..10), and for links that cross sources or graphs. Links inside one graph are wire grey. No blue, no orange, no brown.",
+      "light": [
+        "#0c8f7e",
+        "#6e56cf",
+        "#b8327a",
+        "#248a3d",
+        "#8e8e93",
+        "#d70015",
+        "#0e7c86",
+        "#9b51e0",
+        "#e0457b",
+        "#48484a"
+      ],
+      "dark": [
+        "#3fd6c0",
+        "#a78bfa",
+        "#ff6fae",
+        "#30d158",
+        "#aeaeb2",
+        "#ff453a",
+        "#40c8e0",
+        "#c77dff",
+        "#ff8fb1",
+        "#e5e5ea"
+      ]
+    },
+    "typographyMeta": {
+      "large-title": {
+        "displayName": "Large Title",
+        "purpose": "One per scrolling page, 28px/700; the page names itself here, not in the toolbar. 24px on phones."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Major pane or section heading."
+      },
+      "title-2": {
+        "displayName": "Title 2",
+        "purpose": "Sheet titles and panel headings."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Row titles, stage names in lists, inspector status line. Stage card titles on the canvas are 14px/600."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All interface text and controls."
+      },
+      "reading": {
+        "displayName": "Reading",
+        "purpose": "Generated answers; max 72ch."
+      },
+      "callout": {
+        "displayName": "Callout",
+        "purpose": "Hints, row subtitles, activity status text."
+      },
+      "section-label": {
+        "displayName": "Section Label",
+        "purpose": "Sentence-case section headers, column headers, sidebar group labels, figure captions. Never tracked capitals. Also canvas lane-band labels."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Headline counts with tabular numerals; a zero drops to dim 500."
+      },
+      "mono": {
+        "displayName": "SF Mono",
+        "purpose": "Code and data only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-sm",
+        "value": "0 1px 2px rgba(0,0,0,.06)",
+        "dark": "0 1px 2px rgba(0,0,0,.45)",
+        "purpose": "Small opaque tiles proud of a pane, such as template cards at rest."
+      },
+      {
+        "name": "shadow-md",
+        "value": "0 1px 3px rgba(0,0,0,.06), 0 10px 26px -10px rgba(0,0,0,.16)",
+        "dark": "0 1px 3px rgba(0,0,0,.5), 0 12px 30px -10px rgba(0,0,0,.7)",
+        "purpose": "A chosen template card."
+      },
+      {
+        "name": "shadow-lg",
+        "value": "0 0 0 .5px rgba(0,0,0,.10), 0 4px 12px rgba(0,0,0,.06), 0 24px 56px -12px rgba(0,0,0,.26)",
+        "dark": "0 0 0 .5px rgba(255,255,255,.10), 0 4px 12px rgba(0,0,0,.35), 0 28px 60px -12px rgba(0,0,0,.75)",
+        "purpose": "Menus, popovers, build log, sheets, nav drawer, toasts."
+      },
+      {
+        "name": "glow",
+        "value": "0 1px 1px rgba(0,0,0,.10)",
+        "dark": "0 1px 1px rgba(0,0,0,.3)",
+        "purpose": "Primary push button."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid var(--focus); outline-offset: 1px",
+        "purpose": "Global focus band, graphite, following the control's shape."
+      },
+      {
+        "name": "liquid-ring",
+        "value": "0 0 0 .5px var(--lg-edge), inset 0 1px 0 var(--lg-spec)",
+        "purpose": "Darkened edge plus specular rim on every Liquid Glass surface."
+      },
+      {
+        "name": "lg-lift",
+        "value": "0 6px 18px -6px rgba(0,0,0,.16)",
+        "dark": "0 8px 22px -6px rgba(0,0,0,.6)",
+        "purpose": "Toolbar capsules, the activity view and canvas capsules."
+      },
+      {
+        "name": "sidebar-edge",
+        "value": "inset -1px 0 0 var(--lg-spec), 1px 0 0 var(--lg-edge)",
+        "purpose": "Flush sidebar's trailing edge: a darkened line with a specular line inside it."
+      },
+      {
+        "name": "toolbar-hairline",
+        "value": "0 .5px 0 var(--line)",
+        "purpose": "Bottom of the toolbar band."
+      },
+      {
+        "name": "stage-rest",
+        "value": "0 0 0 .5px var(--lg-edge), inset 0 1px 0 var(--lg-spec), 0 2px 10px -3px rgba(0,0,0,.12)",
+        "purpose": "Stage card at rest."
+      },
+      {
+        "name": "stage-hover",
+        "value": "0 0 0 .5px var(--lg-edge), inset 0 1px 0 var(--lg-spec), 0 8px 22px -8px rgba(0,0,0,.24)",
+        "purpose": "Stage card on hover, with a 1px lift."
+      },
+      {
+        "name": "stage-selected",
+        "value": "0 0 0 2px var(--text), 0 10px 26px -10px rgba(0,0,0,.3)",
+        "purpose": "Selected stage: a 2px ink ring."
+      },
+      {
+        "name": "stage-error",
+        "value": "0 0 0 1.5px var(--clay), 0 2px 10px -3px rgba(0,0,0,.12)",
+        "purpose": "Stage with an error: a refusal-red ring (2px when selected)."
+      }
+    ],
+    "materials": [
+      {
+        "name": "sidebar-glass",
+        "value": "background: linear-gradient(180deg, var(--lg-sheen), transparent 38%), var(--sidebar); backdrop-filter: blur(50px) saturate(200%)",
+        "purpose": "Flush sidebar, tinted by the desktop fields on .app."
+      },
+      {
+        "name": "desktop-fields",
+        "value": "radial-gradient(520px 420px at 0% 8%, var(--wall-a), transparent 70%), radial-gradient(480px 460px at 4% 72%, var(--wall-b), transparent 70%), radial-gradient(360px 300px at 18% 102%, var(--wall-c), transparent 70%)",
+        "purpose": "Painted on .app behind the sidebar; the opaque main column hides them elsewhere."
+      },
+      {
+        "name": "toolbar-band",
+        "value": "background: linear-gradient(180deg, var(--toolbar-band), color-mix(in srgb, var(--toolbar-band) 70%, transparent)); backdrop-filter: blur(24px) saturate(180%)",
+        "purpose": "Unified frosted toolbar, 60px, over the top of the content."
+      },
+      {
+        "name": "liquid",
+        "value": "background: radial-gradient(160% 110% at 22% 0%, var(--lg-sheen), transparent 58%), var(--lg-fill); backdrop-filter: blur(18px) saturate(190%); box-shadow: 0 0 0 .5px var(--lg-edge), inset 0 1px 0 var(--lg-spec), inset 0 -1px 0 var(--lg-sheen), var(--lg-lift)",
+        "purpose": "Toolbar capsules, toolbar group, activity view, canvas stats and legend, Explore Fit/Relax."
+      },
+      {
+        "name": "glass-strong",
+        "value": "background: radial-gradient(140% 90% at 18% 0%, var(--lg-sheen), transparent 55%), var(--popover); backdrop-filter: blur(30px) saturate(190%); box-shadow: liquid-ring + shadow-lg",
+        "purpose": "Menus, popovers, build log, toasts, the Explore colour legend."
+      },
+      {
+        "name": "nav-drawer",
+        "value": "backdrop-filter: blur(40px) saturate(190%)",
+        "purpose": "Phone navigation drawer."
+      },
+      {
+        "name": "fallback",
+        "value": "background: var(--solid)",
+        "purpose": "Popover glass and the sidebar when backdrop-filter is unsupported."
+      },
+      {
+        "name": "floating-pane",
+        "value": "background: radial-gradient(140% 50% at 20% 0%, var(--lg-sheen), transparent 55%), var(--popover); backdrop-filter: blur(34px) saturate(190%); border-radius: 22px; box-shadow: 0 0 0 .5px var(--lg-edge), inset 0 1px 0 var(--lg-spec), var(--shadow-lg)",
+        "purpose": "Studio stage palette and inspector, Explore node detail; inset 12px over the canvas. Opaque and static below 1024px."
+      },
+      {
+        "name": "stage-card",
+        "value": "background: radial-gradient(140% 100% at 20% 0%, var(--lg-sheen), transparent 55%), var(--glass-raised)",
+        "purpose": "Lit raised surface of a stage card."
+      },
+      {
+        "name": "lane-band",
+        "value": "background: color-mix(in srgb, var(--text) 3%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 5%, transparent); border-radius: 24px",
+        "purpose": "Soft band behind each half of the pipeline."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Exponential ease-out for popovers, sheets, switches, segmented selection, progress."
+      },
+      {
+        "name": "control",
+        "value": "120-150ms ease",
+        "purpose": "Hover/press on buttons, rows, fields."
+      },
+      {
+        "name": "toolbar-press",
+        "value": "transform .2s var(--ease-out); scale 1.03 hover, .97 press",
+        "purpose": "Toolbar Liquid Glass capsules."
+      },
+      {
+        "name": "surface",
+        "value": "180-220ms var(--ease-out)",
+        "purpose": "Popovers and sheets scale from .97 and fade in; never slide. Floating canvas panes are the exception."
+      },
+      {
+        "name": "progress",
+        "value": "transform 500ms var(--ease-out)",
+        "purpose": "Build-progress hairline in the activity view."
+      },
+      {
+        "name": "busy-spin",
+        "value": "spin .9s linear infinite",
+        "purpose": "Busy status glyph."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations .01ms",
+        "purpose": "prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "pane-slide",
+        "value": "slide-in-left/right .24-.26s var(--ease-out): translateX(16px) scale(.985) to none",
+        "purpose": "Floating canvas panes slide in from their own side."
+      },
+      {
+        "name": "wire",
+        "value": "stroke .2s ease, opacity .2s ease",
+        "purpose": "Wires turning ink or stepping back to 35% on selection."
+      },
+      {
+        "name": "stage-lift",
+        "value": "box-shadow .2s var(--ease-out), transform .2s var(--ease-out)",
+        "purpose": "Stage card 1px hover lift."
+      },
+      {
+        "name": "canvas-pan",
+        "value": "setViewport x only, 260ms",
+        "purpose": "Pan the chosen stage clear of the inspector at the same zoom; never re-zoom."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "767px",
+        "purpose": "Sidebar becomes a glass drawer; activity view keeps only the graph pop-up; page top padding toolbar-h + 14px."
+      },
+      {
+        "name": "tablet",
+        "value": "1023px",
+        "purpose": "Sidebar becomes a 68px icon rail; Studio opens on the Stages list and the inspector replaces it as a plain full-width pane with an All stages back button; Explore detail becomes static and full-width."
+      },
+      {
+        "name": "graphs-stack",
+        "value": "1100px",
+        "purpose": "Graphs table and inspector stack."
+      },
+      {
+        "name": "small-laptop",
+        "value": "1279px",
+        "purpose": "Sidebar narrows to 204px; Studio inspector to 310px."
+      },
+      {
+        "name": "coarse-pointer",
+        "value": "(pointer: coarse)",
+        "purpose": "40px controls, 16px field text."
+      }
+    ],
+    "knownLimits": [
+      "The backend's shared SQLite connection can return malformed rows under concurrent requests (seen as a 500 on /api/sources). Pre-existing backend defect, not a design rule."
+    ],
+    "layout": {
+      "sidebarWidth": {
+        "default": "232px",
+        "<1280": "204px",
+        "<1024": "68px"
+      },
+      "toolbarHeight": "60px",
+      "pagePadding": "calc(var(--toolbar-h) + 20px) 32px 56px",
+      "nonPageTop": "var(--toolbar-h)",
+      "studio": {
+        "canvas": "full width under a shape bar (Canvas/Stages segmented control, Stages palette toggle, template shape)",
+        "palette": "252px floating glass pane, left, inset 12px, closed by default",
+        "inspector": "340px (310px <1280) floating glass pane, right, inset 12px, only while a stage is selected",
+        "fitViewPadding": {
+          "top": "64px",
+          "bottom": "56px",
+          "right": "36px",
+          "left": "36px, or 288px with the palette open"
+        },
+        "stage": "220x64",
+        "chromeInset": "14px"
+      },
+      "explore": {
+        "detail": "340px floating glass pane, right, inset 12px",
+        "legend": "glass pane bottom-left",
+        "controls": "Fit/Relax glass capsule bottom-right"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Push Button",
+      "kind": "button",
+      "refersTo": "button-push",
+      "description": "The default capsule push button with a tinted fill.",
+      "html": "<button class=\"ds-btn\">Open in Studio</button>",
+      "css": ".ds-btn{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 14px;border:0;border-radius:999px;background:var(--fill,rgba(0,0,0,.055));color:var(--text,#1d1d1f);font-size:13px;font-weight:500;letter-spacing:-0.006em;transition:background-color .15s ease}.ds-btn:hover{background:var(--fill-hover,rgba(0,0,0,.085))}.ds-btn:active{background:var(--fill-active,rgba(0,0,0,.12))}.ds-btn:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid Graphite capsule; one per view, for the next action.",
+      "html": "<button class=\"ds-btn-primary\">Rebuild</button>",
+      "css": ".ds-btn-primary{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;height:28px;padding:0 14px;border:0;border-radius:999px;background:var(--accent-fill,#1d1d1f);color:var(--on-accent,#fff);font-size:13px;font-weight:500;box-shadow:0 1px 1px rgba(0,0,0,.10);transition:background-color .15s ease}.ds-btn-primary:hover{background:var(--accent-hi,#000)}.ds-btn-primary:active{background:var(--accent-lo,#3a3a3c)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Toolbar Button",
+      "kind": "button",
+      "refersTo": "button-toolbar",
+      "description": "36px Liquid Glass capsule in the toolbar (Build outside Studio, More); scales on hover and press.",
+      "html": "<button class=\"ds-btn-toolbar\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"round\"><path d=\"M3 2l7 4-7 4z\"/></svg>Build</button>",
+      "css": ".ds-btn-toolbar{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 16px;border:0;border-radius:999px;background:radial-gradient(160% 110% at 22% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 58%),var(--lg-fill,rgba(255,255,255,.64));-webkit-backdrop-filter:blur(18px) saturate(190%);backdrop-filter:blur(18px) saturate(190%);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 6px 18px -6px rgba(0,0,0,.16);color:var(--text,#1d1d1f);font-size:13px;font-weight:500;transition:transform .2s cubic-bezier(.16,1,.3,1)}.ds-btn-toolbar:hover{transform:scale(1.03)}.ds-btn-toolbar:active{transform:scale(.97)}.ds-btn-toolbar:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Toolbar Group",
+      "kind": "button",
+      "refersTo": "toolbar-group",
+      "description": "Save and Build sharing one glass capsule in Studio; Build is the tinted Graphite segment.",
+      "html": "<div class=\"ds-tgroup\" role=\"group\"><button class=\"ds-tseg\">Save</button><button class=\"ds-tseg ds-tseg-primary\">Build</button></div>",
+      "css": ".ds-tgroup{display:inline-flex;align-items:center;gap:2px;height:36px;padding:0 3px;border-radius:999px;background:radial-gradient(160% 110% at 22% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 58%),var(--lg-fill,rgba(255,255,255,.64));-webkit-backdrop-filter:blur(18px) saturate(190%);backdrop-filter:blur(18px) saturate(190%);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 6px 18px -6px rgba(0,0,0,.16);}.ds-tseg{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;height:30px;padding:0 13px;border:0;border-radius:999px;background:transparent;color:var(--text,#1d1d1f);font-size:13px;font-weight:500;transition:background-color .15s ease}.ds-tseg:hover{background:var(--fill,rgba(0,0,0,.055))}.ds-tseg-primary{background:var(--accent-fill,#1d1d1f);color:var(--on-accent,#fff);box-shadow:inset 0 1px 0 rgba(255,255,255,.22)}.ds-tseg-primary:hover{background:var(--accent-hi,#000)}.ds-tseg:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Raised field with a hairline stroke and a graphite focus band.",
+      "html": "<input class=\"ds-input\" placeholder=\"Search graphs\">",
+      "css": ".ds-input{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;width:260px;min-height:28px;padding:4px 9px;border-radius:8px;background:var(--glass-raised,#fff);border:1px solid var(--field-border,rgba(0,0,0,.14));color:var(--text,#1d1d1f);font-size:13px;outline:none;transition:border-color .15s ease,box-shadow .15s ease}.ds-input::placeholder{color:var(--dim,#6e6e73)}.ds-input:focus{border-color:color-mix(in srgb,var(--text,#1d1d1f) 45%,transparent);box-shadow:0 0 0 3px var(--focus,rgba(0,0,0,.38))}"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Tinted capsules whose dot carries the status shape: disc, ring, diamond.",
+      "html": "<span class=\"ds-chip ds-ok\"><i class=\"ds-dot\"></i>Ready</span> <span class=\"ds-chip ds-warn\"><i class=\"ds-dot\"></i>Rebuild needed</span> <span class=\"ds-chip ds-bad\"><i class=\"ds-dot\"></i>Build failed</span> <span class=\"ds-chip\">12 sources</span>",
+      "css": ".ds-chip{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:500;line-height:1.5;background:var(--fill,rgba(0,0,0,.055));color:var(--muted,#515154)}.ds-dot{width:7px;height:7px;border-radius:999px;display:inline-block}.ds-ok{color:var(--sage,#248a3d);background:var(--sage-wash,rgba(52,199,89,.14))}.ds-ok .ds-dot{background:var(--sage,#248a3d)}.ds-warn{color:var(--amber-text,#1d1d1f);background:var(--amber-wash,rgba(255,204,0,.22))}.ds-warn .ds-dot{box-shadow:inset 0 0 0 2px var(--amber,#f2c200)}.ds-bad{color:var(--clay,#d70015);background:var(--clay-wash,rgba(255,59,48,.10))}.ds-bad .ds-dot{background:var(--clay,#d70015);border-radius:1.5px;transform:rotate(45deg) scale(.9)}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented-selected",
+      "description": "Tinted capsule track; the chosen segment is lit glass (sheen, darkened edge, specular rim).",
+      "html": "<div class=\"ds-seg\" role=\"radiogroup\"><button aria-checked=\"true\">Canvas</button><button aria-checked=\"false\">Stages</button></div>",
+      "css": ".ds-seg{display:inline-flex;padding:2px;border-radius:999px;background:var(--fill,rgba(0,0,0,.055))}.ds-seg button{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;height:24px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--muted,#515154);font-size:12.5px;transition:background-color .18s cubic-bezier(.16,1,.3,1),color .18s ease}.ds-seg button:hover{color:var(--text,#1d1d1f)}.ds-seg button[aria-checked=true]{background:var(--glass-raised,#fff);color:var(--text,#1d1d1f);font-weight:500;background:radial-gradient(160% 120% at 25% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 60%),var(--glass-raised,#fff);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 2px 6px -2px rgba(0,0,0,.2)}.ds-seg button:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Switch",
+      "kind": "input",
+      "refersTo": "switch-track",
+      "description": "38x20 capsule track with a 22x16 white capsule knob; ready green when on.",
+      "html": "<button class=\"ds-switch\" role=\"switch\" aria-checked=\"true\"><span class=\"ds-track\"><span class=\"ds-knob\"></span></span>On</button>",
+      "css": ".ds-switch{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;gap:8px;background:none;border:0;padding:2px 0;border-radius:999px;font-size:13px;color:var(--text,#1d1d1f)}.ds-track{width:38px;height:20px;border-radius:999px;position:relative;background:var(--fill-active,rgba(0,0,0,.12));transition:background-color .2s cubic-bezier(.16,1,.3,1)}.ds-switch[aria-checked=true] .ds-track{background:var(--sage,#248a3d)}.ds-knob{position:absolute;top:2px;left:2px;width:22px;height:16px;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.28),0 0 0 .5px rgba(0,0,0,.06);transition:transform .22s cubic-bezier(.16,1,.3,1)}.ds-switch[aria-checked=true] .ds-knob{transform:translateX(12px)}.ds-switch:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Sidebar",
+      "kind": "nav",
+      "refersTo": "sidebar",
+      "description": "Flush, full-height Liquid Glass sidebar over the desktop fields; coloured place icons; current row is a grey pill with an inner sheen.",
+      "html": "<div class=\"ds-desk\"><nav class=\"ds-nav\"><div class=\"ds-nav-label\">Workspace</div><a class=\"ds-nav-item\" aria-current=\"page\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"#0c8f7e\" stroke-width=\"1.5\"><circle cx=\"4\" cy=\"8\" r=\"2\"/><circle cx=\"12\" cy=\"4\" r=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M6 7l4-2M6 9l4 2\"/></svg>Graphs</a><a class=\"ds-nav-item\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"#248a3d\" stroke-width=\"1.5\"><path d=\"M4 2h6l3 3v9H4z\"/></svg>Sources</a><a class=\"ds-nav-item\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"#6e56cf\" stroke-width=\"1.5\"><path d=\"M6 10l4-4M5 7l-2 2a2.5 2.5 0 003.5 3.5l2-2M11 9l2-2A2.5 2.5 0 009.5 3.5l-2 2\"/></svg>Connections</a><div class=\"ds-nav-label\">This graph</div><a class=\"ds-nav-item\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"#b8327a\" stroke-width=\"1.5\"><rect x=\"2\" y=\"3\" width=\"12\" height=\"10\" rx=\"2\"/></svg>Studio</a></nav><div class=\"ds-desk-main\"></div></div>",
+      "css": ".ds-desk{display:flex;height:300px;background-color:var(--window,#fff);background-image:radial-gradient(520px 420px at 0% 8%,var(--wall-a,rgba(12,143,126,.2)),transparent 70%),radial-gradient(480px 460px at 4% 72%,var(--wall-b,rgba(110,86,207,.18)),transparent 70%),radial-gradient(360px 300px at 18% 102%,var(--wall-c,rgba(224,69,123,.12)),transparent 70%)}.ds-desk-main{flex:1;background:var(--window,#fff)}.ds-nav{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;width:232px;padding:14px 10px;background:linear-gradient(180deg,var(--lg-sheen,rgba(255,255,255,.55)),transparent 38%),var(--sidebar,rgba(246,246,249,.58));-webkit-backdrop-filter:blur(50px) saturate(200%);backdrop-filter:blur(50px) saturate(200%);box-shadow:inset -1px 0 0 var(--lg-spec,rgba(255,255,255,.96)),1px 0 0 var(--lg-edge,rgba(0,0,0,.15));display:flex;flex-direction:column;gap:1px;position:relative;z-index:1}.ds-nav-label{font-size:11px;font-weight:600;color:var(--dim,#6e6e73);padding:14px 10px 5px}.ds-nav-item{display:flex;align-items:center;gap:10px;min-height:32px;padding:5px 10px;border-radius:10px;font-size:13px;color:var(--text,#1d1d1f);text-decoration:none;transition:background-color .15s ease}.ds-nav-item:hover{background:var(--fill,rgba(0,0,0,.055))}.ds-nav-item[aria-current=page]{background:var(--sidebar-sel,rgba(0,0,0,.08));font-weight:600;box-shadow:inset 0 1px 0 var(--lg-sheen,rgba(255,255,255,.55))}.ds-nav-item:focus-visible{outline:3px solid var(--focus,rgba(0,0,0,.38));outline-offset:1px}"
+    },
+    {
+      "name": "Activity View",
+      "kind": "custom",
+      "refersTo": "activity-view",
+      "description": "Centred 36px Liquid Glass capsule: graph pop-up, status glyph and text, build-progress hairline.",
+      "html": "<div class=\"ds-activity\"><span class=\"ds-act-graph\">IELTS IDEA</span><span class=\"ds-act-sep\"></span><span class=\"ds-act-status\"><i class=\"ds-glyph\"></i>Indexing · 42%</span><span class=\"ds-act-progress\"></span></div>",
+      "css": ".ds-activity{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;position:relative;display:flex;align-items:center;height:36px;width:420px;padding:0 4px 0 3px;border-radius:999px;background:radial-gradient(160% 110% at 22% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 58%),var(--lg-fill,rgba(255,255,255,.64));-webkit-backdrop-filter:blur(18px) saturate(190%);backdrop-filter:blur(18px) saturate(190%);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 6px 18px -6px rgba(0,0,0,.16);overflow:hidden}.ds-act-graph{flex:1;padding:0 12px;font-size:13px;font-weight:600;color:var(--text,#1d1d1f)}.ds-act-sep{width:1px;height:16px;background:var(--line-strong,rgba(0,0,0,.16))}.ds-act-status{display:inline-flex;align-items:center;gap:7px;padding:0 12px 0 10px;font-size:12px;color:var(--muted,#515154)}.ds-glyph{width:9px;height:9px;border-radius:999px;box-sizing:border-box;box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--amber,#f2c200) 35%,transparent);border-top:2px solid var(--amber,#f2c200);animation:ds-spin .9s linear infinite}.ds-act-progress{position:absolute;left:16px;right:16px;bottom:1px;height:2px;border-radius:2px;background:var(--text,#1d1d1f);transform-origin:left;transform:scaleX(.42)}@keyframes ds-spin{to{transform:rotate(360deg)}}"
+    },
+    {
+      "name": "Stage Card",
+      "kind": "card",
+      "refersTo": "stage-card",
+      "description": "Studio canvas stage: lit raised surface, lane-tinted icon tile, 14px title, dim config line, status glyph. Hover lifts 1px; selection is a 2px ink ring.",
+      "html": "<div class=\"ds-stage\" tabindex=\"0\" style=\"--lane:#6e56cf\"><span class=\"ds-stage-icon\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"2.5\" y=\"2.5\" width=\"11\" height=\"11\" rx=\"2.5\"/><path d=\"M5.5 6.5h5M5.5 9.5h3\"/></svg></span><span class=\"ds-stage-text\"><span class=\"ds-stage-title\">Embed</span><span class=\"ds-stage-sub\">text-embedding-3-small · 1536 dims</span></span><i class=\"ds-stage-glyph\"></i></div>",
+      "css": ".ds-stage{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;width:220px;min-height:64px;display:flex;align-items:center;gap:11px;padding:11px 13px 11px 11px;border-radius:16px;background:radial-gradient(140% 100% at 20% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 55%),var(--glass-raised,#fff);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 2px 10px -3px rgba(0,0,0,.12);color:var(--text,#1d1d1f);outline:none;transition:box-shadow .2s cubic-bezier(.16,1,.3,1),transform .2s cubic-bezier(.16,1,.3,1)}.ds-stage:hover{box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),0 8px 22px -8px rgba(0,0,0,.24);transform:translateY(-1px)}.ds-stage:focus-visible{box-shadow:0 0 0 2px var(--text,#1d1d1f),0 10px 26px -10px rgba(0,0,0,.3)}.ds-stage-icon{width:32px;height:32px;border-radius:10px;flex:0 0 auto;display:grid;place-items:center;color:var(--lane);background:color-mix(in srgb,var(--lane) 15%,transparent);box-shadow:inset 0 0 0 .5px color-mix(in srgb,var(--lane) 30%,transparent)}.ds-stage-text{display:flex;flex-direction:column;min-width:0;flex:1;gap:1px}.ds-stage-title{font-size:14px;font-weight:600;letter-spacing:-0.012em;line-height:1.25}.ds-stage-sub{font-size:12px;color:var(--dim,#6e6e73);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-stage-glyph{width:9px;height:9px;border-radius:999px;flex:0 0 auto;background:var(--sage,#248a3d)}"
+    },
+    {
+      "name": "Canvas Legend",
+      "kind": "custom",
+      "refersTo": "canvas-legend",
+      "description": "Glass capsule over the Studio canvas: solid and dashed wire swatches, and a hint while nothing is selected.",
+      "html": "<div class=\"ds-legend\"><span><i></i>Ingestion path</span><span><i class=\"ds-dash\"></i>Reads the index</span><span class=\"ds-hint\">Click a stage to configure it</span></div>",
+      "css": ".ds-legend{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;display:inline-flex;align-items:center;gap:14px;height:32px;padding:0 14px;border-radius:999px;font-size:11.5px;color:var(--muted,#515154);background:radial-gradient(160% 110% at 22% 0%,var(--lg-sheen,rgba(255,255,255,.55)),transparent 58%),var(--lg-fill,rgba(255,255,255,.64));-webkit-backdrop-filter:blur(18px) saturate(190%);backdrop-filter:blur(18px) saturate(190%);box-shadow:0 0 0 .5px var(--lg-edge,rgba(0,0,0,.15)),inset 0 1px 0 var(--lg-spec,rgba(255,255,255,.96)),inset 0 -1px 0 var(--lg-sheen,rgba(255,255,255,.55)),0 6px 18px -6px rgba(0,0,0,.16)}.ds-legend>span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.ds-legend i{display:inline-block;width:18px;height:0;border-top:1.5px solid var(--wire,#a1a1a6)}.ds-legend i.ds-dash{border-top-style:dashed}.ds-hint{color:var(--dim,#6e6e73);padding-left:14px;box-shadow:-1px 0 0 var(--line,rgba(0,0,0,.085))}"
+    },
+    {
+      "name": "Graphs Table",
+      "kind": "custom",
+      "refersTo": "table-row-selected-focused",
+      "description": "macOS list view: zebra rows, graphite-grey selection only while focused.",
+      "html": "<div class=\"ds-table\" tabindex=\"0\"><div class=\"ds-tr ds-th\"><span>Name</span><span>Status</span></div><div class=\"ds-tr ds-sel\"><span><b>IELTS IDEA</b></span><span>Rebuild needed</span></div><div class=\"ds-tr\"><span><b>Manuals only</b></span><span>Ready</span></div></div>",
+      "css": ".ds-table{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;width:420px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px var(--line,rgba(0,0,0,.085));background:var(--window,#fff);font-size:13px;outline:none}.ds-tr{display:grid;grid-template-columns:1fr 140px;padding:9px 12px;color:var(--muted,#515154)}.ds-tr b{color:var(--text,#1d1d1f);font-weight:600}.ds-th{font-size:11px;font-weight:600;color:var(--dim,#6e6e73);padding:8px 12px 7px;border-bottom:1px solid var(--line,rgba(0,0,0,.085))}.ds-tr:nth-child(odd):not(.ds-th){background:var(--stripe,rgba(0,0,0,.022))}.ds-tr:not(.ds-th):hover{background:var(--fill,rgba(0,0,0,.055))}.ds-sel{background:var(--selection-blur,rgba(0,0,0,.085))!important;border-radius:8px}.ds-table:focus-within .ds-sel{background:var(--selection,#6e6e73)!important;color:rgba(255,255,255,.82)}.ds-table:focus-within .ds-sel b{color:#fff}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pro App Window",
+    "overview": "Weft is built the way a Mac pro tool is built, in the line of Xcode and Instruments, not the way a web dashboard is. The window is the frame, drawn as macOS 27 (\"Golden Gate\") draws it. A Liquid Glass sidebar runs flush to the window's leading edge, full height, tinted by a soft desktop that shows only through it. A unified frosted toolbar band lies across the top of the content, and the content scrolls beneath it. The toolbar's controls are Liquid Glass capsules, with a centred activity view. Content sits on an opaque window background (white, or near-black in dark mode), and an inspector sits beside it. The two canvases, Studio and Explore, are the exception in layout, not in material: the canvas takes the full width, and its panes and controls float over it as Liquid Glass. Density follows AppKit: a 13px body, 28px controls, hairline dividers, and tables rather than walls of cards.\n\nColour is rationed. The accent is Graphite, the monochrome macOS accent, so the primary action is the darkest thing on a light window and the lightest on a dark one. Hue is left to status, where it carries meaning, to the lanes that code pipeline stages, and to the sidebar icons, one hue per place, as macOS 27 colours them. Translucency belongs only to chrome: the sidebar, the toolbar band and its capsules, menus, popovers, the build log, toasts, and the panes and capsules that float over a canvas. Liquid Glass has a darkened outer edge, a bright specular rim and a sheen where the light lands. Glass marks a surface that floats over the work, not a finish applied to everything.\n\nThis build departs from its direction contract in six places, and the build wins in each. The contract named system blue as the only accent; the user rejected blue during the build, and orange and brown anywhere, so the accent is Graphite. The contract put a page title at the toolbar's leading edge; the finish review removed it on every page, so pages are named by their large title or the sidebar selection. The contract named orange for needs-attention; it is yellow. The contract gave dark grouped boxes as #2C2C2E; the build ships a slightly deeper value (see the grouped-dark token). The contract's sidebar was inset 8px with an 18px radius; the user moved to the macOS 27 look, so the sidebar is flush and square to the window edge. The contract tinted sidebar icons with the accent; they now carry one hue per place.",
+    "keyCharacteristics": [
+      "Apple system semantics in both light and dark themes, plus Match system.",
+      "A monochrome Graphite accent. Colour means status, pipeline lane or sidebar place, nothing else.",
+      "Every status has a shape as well as a hue: a filled disc, a ring, a diamond, a thin ring, or a spinning ring.",
+      "Grouped boxes are a step of grey on the window, with no border and no shadow.",
+      "A flush Liquid Glass sidebar over a soft desktop, and a frosted toolbar band that content scrolls beneath.",
+      "Liquid Glass carries a darkened edge, a specular rim and a top sheen. Content is opaque.",
+      "Canvases take the full width; the stage palette, the inspector, the node detail and the canvas controls float over them as glass.",
+      "Wires are neutral grey. Colour on a link is reserved for a link that crosses sources or graphs.",
+      "The system font stack for everything; SF Mono only for code and data."
+    ],
+    "rules": [
+      {
+        "name": "The Graphite Rule",
+        "body": "The accent is monochrome. Never introduce system blue, orange or brown as an accent, a link colour, a selection or a focus ring. The user rejected all three.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Has a Shape Rule",
+        "body": "Status is never hue alone. Ready is a filled disc, attention a ring, error a diamond (a square rotated 45°), idle a thin ring, and busy a spinning ring. A new status surface uses the status glyph or the badge dot, never a bare coloured dot.",
+        "section": "colors"
+      },
+      {
+        "name": "The Yellow Is Never Text Rule",
+        "body": "On a light window, yellow is a glyph, a tint or a meter. The words beside it are ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lanes Are Data Rule",
+        "body": "Lane colours code pipeline stages and nothing else. They never signal success, error or selection.",
+        "section": "colors"
+      },
+      {
+        "name": "The Neutral Wire Rule",
+        "body": "A wire inside one pipeline or one graph is wire grey, 1.5px in Studio. The chosen stage's or node's links turn ink and everything else steps back; a link never takes a lane or node hue unless it crosses sources or graphs in Explore.",
+        "section": "colors"
+      },
+      {
+        "name": "The Place Hue Rule",
+        "body": "A place hue colours only that place's sidebar icon. The row's text stays ink, its selection stays a grey pill, and a disabled row's icon falls back to muted. A new destination takes a new hue from the same no-blue, no-orange, no-brown family, with a light and a dark value.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sentence Case Rule",
+        "body": "Section labels are 11px semibold in sentence case, never tracked capitals. There are no uppercase mono eyebrows.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Data Rule",
+        "body": "SF Mono only for values a machine produced or reads: IDs, code, model strings, numbers in data cells. Never for labels or headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Glass Is Chrome Rule",
+        "body": "Translucency and blur belong only to surfaces that float over the work or frame it: the sidebar, the toolbar band, toolbar capsules, the activity view, menus, popovers, the build log, toasts, the nav drawer, and the panes and capsules floating over a canvas. Content panes, tables and grouped boxes are opaque, and a canvas pane that stops floating (below 1024px) drops its glass.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Wallpaper Behind Glass Rule",
+        "body": "The desktop fields are painted on the window behind the sidebar, and the main column covers them with opaque window. The wallpaper is seen only through the sidebar glass, never behind content.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Darkened Edge Rule",
+        "body": "A Liquid Glass surface is outlined by a 0.5px darkened edge and lit by a 1px specular rim inside its top, with a sheen at the top-left. A plain grey hairline alone is not Liquid Glass.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Step of Grey Rule",
+        "body": "A grouped box is told from the window by tone alone. It gets no border and no drop shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the accent Graphite: the ink colour on light, near-white on dark. The primary button is the darkest (or lightest) thing on the window.",
+      "Do pair every status hue with its shape: a disc, a ring, a diamond, a thin ring, or a spinning ring.",
+      "Do keep attention text in ink on light windows, with yellow only in the glyph, the badge tint or the meter.",
+      "Do separate grouped boxes from the window by a step of grey (grouped on window), with no border and no shadow.",
+      "Do run the sidebar flush to the window edge, full height, closed by the darkened edge and specular line.",
+      "Do start every screen beneath the 60px toolbar band: scrolling pages at the toolbar height plus 20px, other screens at the toolbar height.",
+      "Do draw Liquid Glass with its darkened edge, specular rim and top sheen, and reserve it for chrome.",
+      "Do group related toolbar actions in one glass capsule, with the prominent one as the Graphite segment.",
+      "Do give each sidebar place its own icon hue, light and dark, and keep the row's selection a grey pill.",
+      "Do let a page name itself with a 28px bold large title or the sidebar selection. The toolbar holds only the menu button (phone), the activity view, and the glass capsules.",
+      "Do use the graphite-grey selection with white text only while a table has focus, and the quiet grey tint otherwise.",
+      "Do use SF Mono only for code and data, with tabular numerals.",
+      "Do write section labels at 11px semibold in sentence case.",
+      "Do give a canvas the full width and float its panes and controls over it as Liquid Glass; pan to reveal a stage, never re-zoom.",
+      "Do draw wires in wire grey, turning ink only for the selected stage or node."
+    ],
+    "donts": [
+      "Don't use system blue, orange or brown anywhere: not as an accent, a link, a selection, a focus ring, a status, a node colour or a place hue.",
+      "Don't set yellow text on a light window.",
+      "Don't use lane colours or place hues for state, action or selection.",
+      "Don't colour a wire by lane, or a link inside one graph by node hue.",
+      "Don't put a page title in the toolbar.",
+      "Don't inset or round the sidebar into a floating pane.",
+      "Don't let the desktop fields show anywhere but through the sidebar glass, or make content panes, tables or grouped boxes translucent.",
+      "Don't use tracked uppercase labels or mono eyebrows.",
+      "Don't outline badges, or add borders or shadows to grouped boxes.",
+      "Don't load web fonts. The system stack is the typeface.",
+      "Don't use aurora gradients, glowing dots, or floating cards on a tinted field in content. The only gradients are the desktop fields behind the sidebar and the sheen on glass."
+    ]
+  }
+}
