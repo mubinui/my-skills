@@ -10,6 +10,7 @@ from any project on this machine.
 | `grilling` | The same grilling workflow as a design tree, asked in rounds with recommended answers. |
 | `impeccable` | Third-party frontend design skill (v4.3.1): design, critique, audit and polish UIs. |
 | `macos27-glass-ui` | Applies the macOS 27 "Liquid Glass" design system (from Weft) to a web frontend. |
+| `product-film` | Narrated product videos of a web app: real screenshots, a deterministic HTML timeline, verified TTS voice, word-timed callouts, 4K60 BT.709 render, ducked music and -14 LUFS mix, captions. Ships a copy-in kit. |
 
 ## Use on another machine
 

@@ -1,0 +1,12 @@
+{
+  "name": "product-film",
+  "capture": { "url": "http://localhost:5173/", "width": 1440, "height": 900, "scale": 3 },
+  "fps": 60,
+  "render": { "scale": 2, "crf": 14, "preset": "slow" },
+  "voice": {
+    "provider": "openrouter",
+    "voice": "marin",
+    "style": "You are a calm, warm product-film narrator. Read the user's text aloud exactly as written, word for word. Do not add, drop or change any words. Measured pace, natural pauses at commas and full stops."
+  },
+  "music": null
+}

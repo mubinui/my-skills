@@ -1,0 +1,5 @@
+[
+  {"id": "open",   "lead": 3.0, "tail": 0.9, "text": "This is Acme. One place to plan, build, and ship your team's work."},
+  {"id": "board",  "lead": 0.8, "tail": 0.9, "text": "Every project lives on a board. Click a card to open it, and everything about the task is right there."},
+  {"id": "outro",  "lead": 1.0, "tail": 4.0, "text": "Acme. Free to start, and ready when you are."}
+]

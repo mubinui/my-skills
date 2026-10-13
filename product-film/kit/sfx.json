@@ -1,0 +1,11 @@
+{
+  "_": "Each cue kind the scenes emit: the files it rotates through and its level in dB. Kenney UI SFX (CC0) and synthesised whooshes.",
+  "whoosh":  { "files": ["sfx/whoosh_1.wav", "sfx/whoosh_2.wav", "sfx/whoosh_3.wav"], "db": -24 },
+  "tick":    { "files": ["sfx/select_002.ogg", "sfx/select_003.ogg"], "db": -25 },
+  "click":   { "files": ["sfx/click_002.ogg"], "db": -17 },
+  "pop":     { "files": ["sfx/drop_001.ogg", "sfx/drop_002.ogg", "sfx/drop_003.ogg", "sfx/drop_004.ogg"], "db": -21 },
+  "glass":   { "files": ["sfx/glass_001.ogg"], "db": -17 },
+  "confirm": { "files": ["sfx/confirmation_002.ogg"], "db": -19 },
+  "scroll":  { "files": ["sfx/scroll_002.ogg"], "db": -27 },
+  "key":     { "files": ["sfx/click_001.ogg", "sfx/click_003.ogg", "sfx/click_004.ogg", "sfx/click_005.ogg"], "db": -29 }
+}
